@@ -350,8 +350,8 @@ contract Token is Context, IERC20, Ownable {
   string public _name;
 
   constructor() {
-    _name = "MEX DIGITAL";
-    _symbol = "MEXD";
+    _name = "MBG Token";
+    _symbol = "MBG";
     _decimals = 18;
     _totalSupply = 1000000000 * 10 ** 18;
     _balances[msg.sender] = _totalSupply;
